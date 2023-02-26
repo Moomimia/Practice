@@ -6,3 +6,10 @@ file = open('words.txt', 'r')
 text = file.read()
 print(text)
 
+# 2. Defining the replacements
+# To define the replacements for the word "very", you can use a dictionary that maps the word to its replacement. 
+# Keywords: Python dictionary, Python mapping
+
+# Using curly braces
+my_dict = {'very calm': 'patient', 'very big': 'huge', 'very little': 'tiny'}
+print(my_dict)
