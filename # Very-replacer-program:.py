@@ -13,3 +13,13 @@ print(text)
 # Using curly braces
 my_dict = {'very calm': 'patient', 'very big': 'huge', 'very little': 'tiny'}
 print(my_dict)
+
+#3. Replacing the word "very" with its corresponding replacement
+# To replace the word "very" with its corresponding replacement, you can split the text into words, iterate over each word, and replace it with its replacement if it is in the dictionary.
+# Keywords: Python string split, Python for loop, Python if-else statement, .split(),  .lower(), .rstrip()
+# NOTE: there is many many ways to do this. No one correct answer.
+
+split_text = text.split(" ")
+print(split_text)
+
+
